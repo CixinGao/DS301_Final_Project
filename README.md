@@ -5,7 +5,7 @@ This repo contains the final project for DS301 in NYU 2025 spring
 ResMLP ODE for Time Series Forecasting
 
 ## Project Team Member:
-
+Ning Chen, Sijing He, Cixin Gao
 ## Project Description:
 
 ## Repository and Code Structure:
