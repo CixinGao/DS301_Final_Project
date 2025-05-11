@@ -32,6 +32,21 @@ MLP, LSTM, and ResMLP+ODE yield a similar performance. MLP although lack some mo
 <img width="945" alt="Screenshot 2025-05-10 at 8 57 58 PM" src="https://github.com/user-attachments/assets/e47d9688-c0a3-4452-817c-e03d331e6722" />
 <img width="963" alt="Screenshot 2025-05-10 at 8 58 11 PM" src="https://github.com/user-attachments/assets/67817a9b-5494-4e21-8799-6169cd13c262" />
 
+## Analysis
+In the context of gold price forecasting—where changes are often smooth and influenced by gradually evolving macroeconomic factors—the inclusion of the Neural ODE block with continuous evolution allows the model to better capture nuanced temporal patterns and avoid abrupt jumps that static layers may produce. It acts as a learned differential operator that bridges historical data and future predictions with smoother transitions, improving generalization and mitigating overfitting. This is especially valuable in financial time series where traditional models may struggle with noise or sudden shifts. While the ODE-enhanced model does not outperform all baselines in absolute metrics, it demonstrates clear advantages in structure, interpretability, and future extensibility.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
