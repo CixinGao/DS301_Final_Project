@@ -16,8 +16,8 @@ Foe this repository, we had "ResMLP+ODE_with_ResMLP.ipynb" as the main coding, "
 * The baseline model that used to compare with ResMLP+ODE:
 * ResMLP: "ResMLP+ODE_with_ResMLP.ipynb"
 * LSTM: milestone2_LSTM.py
-* MLP:
-* NeuralODE:
+* MLP: "MLP.ipynb"
+* NeuralODE: "Neural ODE.ipynb"
 
 The "Hyperparameter Tuning Result.xlsx" is file that shows our ResMLP+ODE hyperparameter tuning result and why we chose such a hyperparameter group as the final model.
 
