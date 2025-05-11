@@ -35,7 +35,7 @@ By the result, we found out that MLP, LSTM, and ResMLP+ODE yield a similar perfo
 
 For the baseline, MLP showed surprisingly strong performance, and its performance is close to LSTM. We thought that, although MLP lacks some model complexity, it is still good at utilizing average to control loss. This led to great performance on the simple and highly related dataset. LSTM performs well due to its tested reliability on sequential data. Neural ODE reached the average, which proved its potential on time series forecasting after adding more tricks and having a more detailed tuning.
 
-## Analysis
+## Function for ODE
 In the context of gold price forecasting—where changes are often smooth and influenced by gradually evolving macroeconomic factors—the inclusion of the Neural ODE block with continuous evolution allows the model to better capture nuanced temporal patterns and avoid abrupt jumps that static layers may produce. It acts as a learned differential operator that bridges historical data and future predictions with smoother transitions, improving generalization and mitigating overfitting. This is especially valuable in financial time series where traditional models may struggle with noise or sudden shifts. While the ODE-enhanced model does not outperform all baselines in absolute metrics, it demonstrates clear advantages in structure, interpretability, and future extensibility.
 
 ## Limitations:
