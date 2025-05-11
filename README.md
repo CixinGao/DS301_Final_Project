@@ -28,4 +28,10 @@ First, open the notebook in Colab. Then, use the file panel on the left to uploa
 
 ## Results
 <img width="1074" alt="截屏2025-05-10 20 26 05" src="https://github.com/user-attachments/assets/a5446e33-f77c-4192-892f-d6fd71029c82" />
+MLP, LSTM, and ResMLP+ODE yield a similar performance. MLP although lack some model complexity, but still good at utilizing average to control loss. LSTM perform well due to its tested reliability on sequential data. Neural ODE achieved average performance (R² ≈ 0.56). Base ResMLP performed badly (R²: -5.69), but adding an ODE block improves ResMLP and shows potential for modeling smooth temporal dynamics. 
+<img width="945" alt="Screenshot 2025-05-10 at 8 57 58 PM" src="https://github.com/user-attachments/assets/e47d9688-c0a3-4452-817c-e03d331e6722" />
+<img width="963" alt="Screenshot 2025-05-10 at 8 58 11 PM" src="https://github.com/user-attachments/assets/67817a9b-5494-4e21-8799-6169cd13c262" />
+
+
+
 
