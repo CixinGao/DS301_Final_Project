@@ -27,3 +27,5 @@ To execute it properly, we recommend downloading both the .ipynb notebook and th
 First, open the notebook in Colab. Then, use the file panel on the left to upload the .csv file under the “Files” tab. Once uploaded, the code should run smoothly with access to the data.
 
 ## Results
+<img width="1074" alt="截屏2025-05-10 20 26 05" src="https://github.com/user-attachments/assets/a5446e33-f77c-4192-892f-d6fd71029c82" />
+
